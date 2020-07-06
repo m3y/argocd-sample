@@ -10,6 +10,6 @@ spec:
       containers:
       - name: sleep
         image: alpine:latest
-        command: ["sleep", "1"]
+        command: ["echo", "Hello world"]
       restartPolicy: Never
   backoffLimit: 0
