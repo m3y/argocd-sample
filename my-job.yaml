@@ -11,6 +11,6 @@ spec:
       containers:
       - name: sleep
         image: ubuntu:latest
-        command: ["exit", "0"]
+        command: ["echo", "${PATH}"]
       restartPolicy: Never
   backoffLimit: 0
