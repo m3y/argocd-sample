@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: sleep
-        image: ubuntu:latest
-        command: ["return", "1"]
+        image: alpine:latest
+        command: ["sleep", "1"]
       restartPolicy: Never
   backoffLimit: 0
