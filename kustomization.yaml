@@ -5,5 +5,5 @@ resources:
 - https://github.com/argoproj/argocd-example-apps.git/kustomize-guestbook?ref=master
 
 commonAnnotations:
-  annotationKey: "0"
+  annotationKey: "1"
 
