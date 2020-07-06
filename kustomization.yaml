@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
 - https://github.com/argoproj/argocd-example-apps.git/pre-post-sync?ref=master
+- my-job.yaml
 
 commonAnnotations:
   annotationKey: "1"
