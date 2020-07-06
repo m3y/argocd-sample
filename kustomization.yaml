@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-- https://github.com/argoproj/argocd-example-apps.git/pre-post-sync?ref=master
+- https://github.com/argoproj/argocd-example-apps.git/kustomize-guestbook?ref=master
 - my-job.yaml
 
 commonAnnotations:
