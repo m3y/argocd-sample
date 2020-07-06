@@ -4,13 +4,12 @@ metadata:
   name: my-job
   annotations:
     argocd.argoproj.io/hook: PreSync
-    argocd.argoproj.io/hook-delete-policy: HookSucceeded
 spec:
   template:
     spec:
       containers:
       - name: sleep
         image: ubuntu:latest
-        command: ["echo", "${PATH}"]
+        command: ["return", "1"]
       restartPolicy: Never
   backoffLimit: 0
