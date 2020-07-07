@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  generateName: my-job-
+  generateName: my-job-pod-
   name: my-job
   annotations:
     argocd.argoproj.io/hook: PreSync
